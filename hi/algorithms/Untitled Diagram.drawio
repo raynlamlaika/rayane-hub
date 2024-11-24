@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.9.0">
   <diagram name="Page-1" id="ymozDGJ-2i05Y7NjnhMk">
-    <mxGraphModel dx="1955" dy="885" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2425" dy="1253" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="IWxX4TDbYC2414TjXPea-5" value="born2beroot" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
-          <mxGeometry x="339" y="20" width="150" height="40" as="geometry" />
+        <mxCell id="IWxX4TDbYC2414TjXPea-5" value="born2beroot" style="text;strokeColor=#FF4242;fillColor=#FF8282;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="319" y="12.280000000000001" width="181" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IWxX4TDbYC2414TjXPea-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.056;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="IWxX4TDbYC2414TjXPea-7">
           <mxGeometry relative="1" as="geometry">
@@ -24,31 +24,13 @@
         <mxCell id="IWxX4TDbYC2414TjXPea-15" value="type 2 hypervisor (hosted)&lt;div&gt;runs as a software layer in an OS like one we use&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="681" y="211" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="IWxX4TDbYC2414TjXPea-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.37;entryY=0.06;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="IWxX4TDbYC2414TjXPea-18" target="IWxX4TDbYC2414TjXPea-20">
+        <mxCell id="IWxX4TDbYC2414TjXPea-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="IWxX4TDbYC2414TjXPea-18">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="80" y="240" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="161" y="220" />
-              <mxPoint x="90" y="220" />
-              <mxPoint x="90" y="240" />
-              <mxPoint x="120" y="240" />
-              <mxPoint x="120" y="234" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="IWxX4TDbYC2414TjXPea-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="IWxX4TDbYC2414TjXPea-18">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="149.99999999999977" y="200.28571428571445" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="170" y="200" />
-              <mxPoint x="170" y="190" />
-              <mxPoint x="155" y="190" />
-              <mxPoint x="155" y="200" />
-            </Array>
+            <mxPoint x="80" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IWxX4TDbYC2414TjXPea-18" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Booting process&lt;/h1&gt;&lt;div&gt;booting is the actual process of starting the computer, &#39;initiated by hardware such as button press or by software command&lt;/div&gt;&lt;div&gt;rebooting (is re starting in computer)&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="160" y="70" width="231" height="130" as="geometry" />
+          <mxGeometry x="108" y="70" width="231" height="130" as="geometry" />
         </mxCell>
         <mxCell id="IWxX4TDbYC2414TjXPea-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IWxX4TDbYC2414TjXPea-20" target="IWxX4TDbYC2414TjXPea-22">
           <mxGeometry relative="1" as="geometry" />
@@ -75,6 +57,60 @@
         </mxCell>
         <mxCell id="IWxX4TDbYC2414TjXPea-25" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Boot Device&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;is the device from wich OS i loaded&amp;nbsp; BIOS&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;the BIOs&amp;nbsp; gonna try first with CD drive first Hard Disk Drive second&amp;nbsp; Network thered&lt;/span&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-10" y="430" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IWxX4TDbYC2414TjXPea-28" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Boot Sequence&lt;/h1&gt;&lt;div&gt;first cpu run the BIOS setup prog&lt;/div&gt;&lt;div&gt;,runs power on self-test POST then the BIOS gone throught the confgured boot loads the boot sector&amp;nbsp;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="570" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IWxX4TDbYC2414TjXPea-36" value="OS services" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="72.28" width="210" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="IWxX4TDbYC2414TjXPea-37" value="Program execution&amp;nbsp;&lt;div&gt;input output operations&lt;/div&gt;&lt;div&gt;communication between process&lt;/div&gt;&lt;div&gt;file management&amp;nbsp;&lt;/div&gt;&lt;div&gt;memory management&lt;/div&gt;&lt;div&gt;process management&amp;nbsp;&lt;/div&gt;&lt;div&gt;security management&amp;nbsp;&lt;/div&gt;&lt;div&gt;resource management&lt;/div&gt;&lt;div&gt;user interface&lt;/div&gt;&lt;div&gt;error handling&lt;/div&gt;&lt;div&gt;time management&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="IWxX4TDbYC2414TjXPea-36">
+          <mxGeometry y="50" width="210" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="IWxX4TDbYC2414TjXPea-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="IWxX4TDbYC2414TjXPea-5" target="IWxX4TDbYC2414TjXPea-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IWxX4TDbYC2414TjXPea-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="IWxX4TDbYC2414TjXPea-5" target="IWxX4TDbYC2414TjXPea-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IWxX4TDbYC2414TjXPea-52" value="primary partition :&lt;div&gt;can hold OS or data, directly bootabel&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;logical partition :&lt;/div&gt;&lt;div&gt;Partitions within an extended partition&amp;nbsp;&lt;/div&gt;&lt;div&gt;unlimited on MBR dist, it can hold logical partition&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-520" y="650" width="270" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IWxX4TDbYC2414TjXPea-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IWxX4TDbYC2414TjXPea-53" target="IWxX4TDbYC2414TjXPea-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IWxX4TDbYC2414TjXPea-53" value="&lt;div&gt;PARTITION&lt;/div&gt;&lt;div&gt;&lt;strong&gt;partitioning&lt;/strong&gt;&amp;nbsp;refers to the process of dividing a physical storage device (HDD,SDD,USB)&lt;br&gt;&lt;/div&gt;&lt;div&gt;we do have partition for organize the data, Dual-boot systems ....&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-520" y="530" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="IWxX4TDbYC2414TjXPea-56" value="&lt;div&gt;LVM&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(12, 13, 14); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI Adjusted&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Liberation Sans&amp;quot;, sans-serif; font-size: 15px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;You can think of LVM as &quot;dynamic partitions&quot;, meaning that you can create/resize/delete LVM&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-570" y="790" width="224" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="IWxX4TDbYC2414TjXPea-60" value="&lt;div&gt;&lt;span style=&quot;font-family: &amp;quot;Ubuntu variable&amp;quot;, Ubuntu, -apple-system, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; text-align: left; white-space: pretty; background-color: rgb(255, 255, 255); box-sizing: inherit;&quot;&gt;PV&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;font-family: &amp;quot;Ubuntu variable&amp;quot;, Ubuntu, -apple-system, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; text-align: left; white-space: pretty; background-color: rgb(255, 255, 255); box-sizing: inherit;&quot;&gt;Physical volumes&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Ubuntu variable&amp;quot;, Ubuntu, -apple-system, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; text-align: left; white-space: pretty; background-color: rgb(255, 255, 255);&quot;&gt;: correspond to disks. They represent the lowest abstraction level of LVM, and are used to create a volume group&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-650" y="970" width="255" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="IWxX4TDbYC2414TjXPea-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.074;entryY=1.03;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="IWxX4TDbYC2414TjXPea-60" target="IWxX4TDbYC2414TjXPea-56">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-586" y="960" />
+              <mxPoint x="-553" y="960" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IWxX4TDbYC2414TjXPea-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="IWxX4TDbYC2414TjXPea-62" target="IWxX4TDbYC2414TjXPea-56">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-310" y="970" />
+              <mxPoint x="-310" y="950" />
+              <mxPoint x="-326" y="950" />
+              <mxPoint x="-326" y="903" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IWxX4TDbYC2414TjXPea-62" value="&lt;div&gt;&lt;span style=&quot;font-family: &amp;quot;Ubuntu variable&amp;quot;, Ubuntu, -apple-system, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; text-align: left; white-space: pretty; background-color: rgb(255, 255, 255);&quot;&gt;LV&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;font-family: &amp;quot;Ubuntu variable&amp;quot;, Ubuntu, -apple-system, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; text-align: left; white-space: pretty; background-color: rgb(255, 255, 255);&quot;&gt;correspond to partitions – they usually hold a filesystem. Unlike partitions though, they can span multiple disks (because of the way volume groups are organised) and do not have to be physically contiguous.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-346" y="970" width="270" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="IWxX4TDbYC2414TjXPea-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.918;entryY=0.028;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="IWxX4TDbYC2414TjXPea-5" target="IWxX4TDbYC2414TjXPea-18">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
