@@ -1,16 +1,23 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.9.0">
   <diagram name="Page-1" id="ymozDGJ-2i05Y7NjnhMk">
-    <mxGraphModel dx="2425" dy="1253" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2739" dy="2326" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="IWxX4TDbYC2414TjXPea-5" value="born2beroot" style="text;strokeColor=#FF4242;fillColor=#FF8282;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
-          <mxGeometry x="319" y="12.280000000000001" width="181" height="60" as="geometry" />
+        <mxCell id="IWxX4TDbYC2414TjXPea-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IWxX4TDbYC2414TjXPea-5" target="IWxX4TDbYC2414TjXPea-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IWxX4TDbYC2414TjXPea-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.056;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="IWxX4TDbYC2414TjXPea-7">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="600" y="40" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="IWxX4TDbYC2414TjXPea-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IWxX4TDbYC2414TjXPea-5" target="IWxX4TDbYC2414TjXPea-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IWxX4TDbYC2414TjXPea-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IWxX4TDbYC2414TjXPea-5" target="IWxX4TDbYC2414TjXPea-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IWxX4TDbYC2414TjXPea-5" value="born2beroot" style="text;strokeColor=#FF4242;fillColor=#FF8282;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="-100" width="181" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IWxX4TDbYC2414TjXPea-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IWxX4TDbYC2414TjXPea-7" target="IWxX4TDbYC2414TjXPea-18">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IWxX4TDbYC2414TjXPea-7" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Hypervisor&lt;br&gt;&lt;/h1&gt;&lt;div&gt;also known as VMmonitor, is a software runs VMs, also allows one host computre to support multiple guest VM by VM sharing its resources &quot;such memory and processig&quot;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="620" y="40" width="170" height="120" as="geometry" />
@@ -62,16 +69,10 @@
           <mxGeometry x="80" y="570" width="180" height="120" as="geometry" />
         </mxCell>
         <mxCell id="IWxX4TDbYC2414TjXPea-36" value="OS services" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-250" y="72.28" width="210" height="230" as="geometry" />
+          <mxGeometry x="-370" y="-10" width="210" height="230" as="geometry" />
         </mxCell>
         <mxCell id="IWxX4TDbYC2414TjXPea-37" value="Program execution&amp;nbsp;&lt;div&gt;input output operations&lt;/div&gt;&lt;div&gt;communication between process&lt;/div&gt;&lt;div&gt;file management&amp;nbsp;&lt;/div&gt;&lt;div&gt;memory management&lt;/div&gt;&lt;div&gt;process management&amp;nbsp;&lt;/div&gt;&lt;div&gt;security management&amp;nbsp;&lt;/div&gt;&lt;div&gt;resource management&lt;/div&gt;&lt;div&gt;user interface&lt;/div&gt;&lt;div&gt;error handling&lt;/div&gt;&lt;div&gt;time management&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="IWxX4TDbYC2414TjXPea-36">
           <mxGeometry y="50" width="210" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="IWxX4TDbYC2414TjXPea-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="IWxX4TDbYC2414TjXPea-5" target="IWxX4TDbYC2414TjXPea-5">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="IWxX4TDbYC2414TjXPea-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="IWxX4TDbYC2414TjXPea-5" target="IWxX4TDbYC2414TjXPea-5">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IWxX4TDbYC2414TjXPea-52" value="primary partition :&lt;div&gt;can hold OS or data, directly bootabel&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;logical partition :&lt;/div&gt;&lt;div&gt;Partitions within an extended partition&amp;nbsp;&lt;/div&gt;&lt;div&gt;unlimited on MBR dist, it can hold logical partition&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-520" y="650" width="270" height="120" as="geometry" />
@@ -109,8 +110,71 @@
         <mxCell id="IWxX4TDbYC2414TjXPea-62" value="&lt;div&gt;&lt;span style=&quot;font-family: &amp;quot;Ubuntu variable&amp;quot;, Ubuntu, -apple-system, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; text-align: left; white-space: pretty; background-color: rgb(255, 255, 255);&quot;&gt;LV&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;font-family: &amp;quot;Ubuntu variable&amp;quot;, Ubuntu, -apple-system, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; text-align: left; white-space: pretty; background-color: rgb(255, 255, 255);&quot;&gt;correspond to partitions – they usually hold a filesystem. Unlike partitions though, they can span multiple disks (because of the way volume groups are organised) and do not have to be physically contiguous.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-346" y="970" width="270" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="IWxX4TDbYC2414TjXPea-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.918;entryY=0.028;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="IWxX4TDbYC2414TjXPea-5" target="IWxX4TDbYC2414TjXPea-18">
+        <mxCell id="IWxX4TDbYC2414TjXPea-69" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(241, 255, 41);&quot;&gt;LSBLK COMMAND&lt;/span&gt;&lt;/div&gt;&lt;font color=&quot;#2b00ff&quot;&gt;Name&lt;/font&gt;&lt;div&gt;&amp;nbsp;the name of the device&lt;/div&gt;&lt;div&gt;MAJ:MIN&lt;/div&gt;&lt;div&gt;the major and the minor device they are identifiers by the Kernel to distinguish devices&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff3d57&quot;&gt;RM&lt;/font&gt;&lt;/div&gt;&lt;div&gt;identicates the device is removable&lt;/div&gt;&lt;div&gt;(1=yes, 0=no)&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#cc99ff&quot;&gt;SIZE&lt;/font&gt;&lt;/div&gt;&lt;div&gt;stand for the size of the device&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff6666&quot;&gt;RO&lt;/font&gt;&lt;/div&gt;&lt;div&gt;indicates whether the device read only&lt;/div&gt;&lt;div&gt;1+yes , 0=no&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#4c0099&quot;&gt;TYPE&lt;/font&gt;&lt;/div&gt;&lt;div&gt;the type device dist :represents the entire disk&lt;/div&gt;&lt;div&gt;part : a partition on the disk&lt;/div&gt;&lt;div&gt;rom: a read-only device like cd-rom&lt;/div&gt;&lt;div&gt;MOUNTPOINT&lt;/div&gt;&lt;div&gt;&amp;nbsp;If the device or partition is mounted, this shows the directory where it is mounted (e.g., &lt;code&gt;/&lt;/code&gt;, &lt;code&gt;/home&lt;/code&gt;, or &lt;code&gt;/mnt&lt;/code&gt;).&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="350" width="310" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="IWxX4TDbYC2414TjXPea-70" value="why the LVM start in sda5 and not 4 or 3&lt;div&gt;the primary and extended partition in a disk can have to four primary partition&amp;nbsp;&lt;/div&gt;&lt;div&gt;if it needed more than four partitions one of teh primary is turned&amp;nbsp; into an extended prtiiton&amp;nbsp;&lt;/div&gt;&lt;div&gt;LOGICAL partitions always start from sda5, regardless of how many primary partition exist&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="325" y="730" width="500" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IWxX4TDbYC2414TjXPea-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.333;entryY=0.076;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="IWxX4TDbYC2414TjXPea-69" target="IWxX4TDbYC2414TjXPea-70">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IWxX4TDbYC2414TjXPea-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IWxX4TDbYC2414TjXPea-74" target="IWxX4TDbYC2414TjXPea-85">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="20" y="765" />
+              <mxPoint x="20" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IWxX4TDbYC2414TjXPea-74" value="SSH" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry y="752" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="IWxX4TDbYC2414TjXPea-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.451;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="IWxX4TDbYC2414TjXPea-5" target="IWxX4TDbYC2414TjXPea-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IWxX4TDbYC2414TjXPea-82" value="FILE MANAGMMENT&amp;nbsp;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-690" y="1270" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IWxX4TDbYC2414TjXPea-85" value="secure shell is a network protocol uses encryption to allow to allow tow connected device to communicate (server and cline) securely with one another.&lt;div&gt;it make the users safely command and control&amp;nbsp;&lt;/div&gt;&lt;div&gt;a machine&lt;/div&gt;" style="whiteSpace=wrap;html=1;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="10" y="778" width="280" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="IWxX4TDbYC2414TjXPea-88" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="IWxX4TDbYC2414TjXPea-74" target="IWxX4TDbYC2414TjXPea-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-30" y="750" as="sourcePoint" />
+            <mxPoint x="190" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-60" y="480" />
+              <mxPoint x="-10" y="330" />
+              <mxPoint x="-30" y="30" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IWxX4TDbYC2414TjXPea-91" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://miro.medium.com/v2/resize:fit:1400/0*tgrMTzwM0nO7DDjQ.png;" vertex="1" parent="1">
+          <mxGeometry x="40" y="900" width="302.22" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="IWxX4TDbYC2414TjXPea-92" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://learnubuntu.com/content/images/2022/09/lsblk.png;" vertex="1" parent="1">
+          <mxGeometry x="472.86" y="800" width="524.28" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="IWxX4TDbYC2414TjXPea-96" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="IWxX4TDbYC2414TjXPea-69" target="IWxX4TDbYC2414TjXPea-92">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="930" y="700" as="sourcePoint" />
+            <mxPoint x="980" y="650" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="980" y="700" />
+              <mxPoint x="960" y="560" />
+              <mxPoint x="950" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IWxX4TDbYC2414TjXPea-100" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="IWxX4TDbYC2414TjXPea-85" target="IWxX4TDbYC2414TjXPea-91">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-80" y="890" as="sourcePoint" />
+            <mxPoint x="-30" y="840" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-80" y="840" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
