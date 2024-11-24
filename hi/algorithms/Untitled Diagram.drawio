@@ -1,9 +1,29 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.9.0">
   <diagram name="Page-1" id="ymozDGJ-2i05Y7NjnhMk">
-    <mxGraphModel>
+    <mxGraphModel dx="983" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="IWxX4TDbYC2414TjXPea-5" value="born2beroot" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="339" y="20" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IWxX4TDbYC2414TjXPea-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.056;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="IWxX4TDbYC2414TjXPea-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IWxX4TDbYC2414TjXPea-7" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Hypervisor&lt;br&gt;&lt;/h1&gt;&lt;div&gt;also known as VMmonitor, is a software runs VMs, also allows one host computre to support multiple guest VM by VM sharing its resources &quot;such memory and processig&quot;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="40" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IWxX4TDbYC2414TjXPea-13" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="660" y="110" width="50" height="154.56" as="geometry" />
+        </mxCell>
+        <mxCell id="IWxX4TDbYC2414TjXPea-14" value="type 1 hypervisor (bare metal)&lt;div&gt;lightweight operationg system and runs drectly on the host&#39;s hardware&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="210" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IWxX4TDbYC2414TjXPea-15" value="type 2 hypervisor (hosted)&lt;div&gt;runs as a software layer in an OS like one we use&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="681" y="211" width="140" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
